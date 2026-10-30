@@ -76,11 +76,47 @@ class Printpattern {
             System.out.println();
         }
     }
+
+    void ninthPattern(int size) {
+        for (int row = 1; row <= size; row++) {
+            for (int column = 1; column <= size - row; column++) {
+                System.out.print(" ");
+            }
+            for (int column = 1; column <= 2 * (row - 1) + 1; column++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int row = 1; row <= size; row++) {
+            for (int column = 1; column < row; column++) {
+                System.out.print(" ");
+            }
+            for (int column = 1; column <= (2 * (size - row)) + 1; column++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    void tenthPattern(int size) {
+        for (int row = 1; row <= size; row++) {
+            for (int column = 1; column <= row; column++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int row = 1; row <= size; row++) {
+            for (int column = size - row; column >= 1; column--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 }
 
 class Patterns {
     public static void main(String[] args) {
         Printpattern pattern1 = new Printpattern();
-        pattern1.eigthPattern(5);
+        pattern1.tenthPattern(5);
     }
 }
