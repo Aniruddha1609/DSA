@@ -99,14 +99,11 @@ class Printpattern {
     }
 
     void tenthPattern(int size) {
-        for (int row = 1; row <= size; row++) {
-            for (int column = 1; column <= row; column++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        for (int row = 1; row <= size; row++) {
-            for (int column = size - row; column >= 1; column--) {
+        for (int row = 1; row <= 2 * size - 1; row++) {
+            int stars = row;
+            if (row > size)
+                stars = 2 * size - row;
+            for (int column = 1; column <= stars; column++) {
                 System.out.print("*");
             }
             System.out.println();
