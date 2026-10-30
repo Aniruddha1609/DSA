@@ -109,11 +109,25 @@ class Printpattern {
             System.out.println();
         }
     }
+
+    void eleventhPattern(int size) {
+        int evenVal = 0;
+        int oddVal = 1;
+        for (int row = 1; row <= size; row++) {
+            int startPoint;
+            startPoint = row % 2 == 0 ? evenVal : oddVal;
+            for (int column = 1; column <= row; column++) {
+                System.out.print(startPoint);
+                startPoint = startPoint ^ 1;
+            }
+            System.out.println();
+        }
+    }
 }
 
 class Patterns {
     public static void main(String[] args) {
         Printpattern pattern1 = new Printpattern();
-        pattern1.tenthPattern(5);
+        pattern1.eleventhPattern(5);
     }
 }
