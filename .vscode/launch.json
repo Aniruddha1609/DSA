@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Selectionsort",
+      "request": "launch",
+      "mainClass": "sorting.Selectionsort",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "Hashing",
       "request": "launch",
       "mainClass": "Hashing",
