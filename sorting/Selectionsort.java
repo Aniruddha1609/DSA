@@ -19,13 +19,29 @@ class Sorting {
             System.out.print(element + " ");
         }
     }
+
+    void bubbleSort(int[] arr) {
+        System.out.println("bubblesort");
+        for (int index = 0; index < arr.length - 1; index++) {
+            for (int curr = 0; curr < arr.length - 1 - index; curr++) {
+                if (arr[curr] > arr[curr + 1]) {
+                    int temp = arr[curr];
+                    arr[curr] = arr[curr + 1];
+                    arr[curr + 1] = temp;
+                }
+            }
+        }
+        for (int element : arr) {
+            System.out.print(element + " ");
+        }
+    }
 }
 
 public class Selectionsort {
     public static void main(String[] args) {
         int arr[] = { 43, 23, 85, 14, 27 };
         Sorting sort = new Sorting();
-        sort.selectionSort(arr);
+        sort.bubbleSort(arr);
 
     }
 }
