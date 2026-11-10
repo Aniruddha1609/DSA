@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "largest_element",
+      "request": "launch",
+      "mainClass": "array.largest_element",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "Quicksort",
       "request": "launch",
       "mainClass": "sorting.Quicksort",
