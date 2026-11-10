@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "second_largest",
+      "request": "launch",
+      "mainClass": "array.second_largest",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "largest_element",
       "request": "launch",
       "mainClass": "array.largest_element",
