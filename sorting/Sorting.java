@@ -1,6 +1,6 @@
 package sorting;
 
-class Sorting {
+class Sort {
     // * Selection Sort :-> Selct the minimum each time and swap*/
     void selectionSort(int[] arr) {
         for (int index = 0; index < arr.length - 1; index++) {
@@ -35,13 +35,29 @@ class Sorting {
             System.out.print(element + " ");
         }
     }
+
+    void insertionSort(int[] arr) {
+        for (int index = 0; index < arr.length; index++) {
+            int curr = index;
+            while (curr > 0 && arr[curr] < arr[curr - 1]) {
+                int temp = arr[curr];
+                arr[curr] = arr[curr - 1];
+                arr[curr - 1] = temp;
+                curr--;
+            }
+        }
+        for (int element : arr) {
+            System.out.print(element + " ");
+        }
+    }
+
 }
 
-public class Selectionsort {
+public class Sorting {
     public static void main(String[] args) {
         int arr[] = { 43, 23, 85, 14, 27 };
-        Sorting sort = new Sorting();
-        sort.bubbleSort(arr);
+        Sort sortAlgo = new Sort();
+        sortAlgo.insertionSort(arr);
 
     }
 }

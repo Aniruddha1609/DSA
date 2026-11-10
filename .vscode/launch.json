@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Mergesort",
+      "request": "launch",
+      "mainClass": "sorting.Mergesort",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
+      "name": "Sorting",
+      "request": "launch",
+      "mainClass": "sorting.Sorting",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "Selectionsort",
       "request": "launch",
       "mainClass": "sorting.Selectionsort",
