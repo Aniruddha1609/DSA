@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Duplicateremoval",
+      "request": "launch",
+      "mainClass": "array.Duplicateremoval",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "Sortedarray",
       "request": "launch",
       "mainClass": "array.Sortedarray",
