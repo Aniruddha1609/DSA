@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sortedarray",
+      "request": "launch",
+      "mainClass": "array.Sortedarray",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "second_largest",
       "request": "launch",
       "mainClass": "array.second_largest",

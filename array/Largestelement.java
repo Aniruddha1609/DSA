@@ -1,6 +1,6 @@
 package array;
 
-public class largest_element {
+public class Largestelement {
     public static void main(String[] args) {
         int[] arr = { 36, 46, 12, 437, 68, 49, 29, 93 };
         int max = Integer.MIN_VALUE;
