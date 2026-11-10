@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Quicksort",
+      "request": "launch",
+      "mainClass": "sorting.Quicksort",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "Mergesort",
       "request": "launch",
       "mainClass": "sorting.Mergesort",
