@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Leftshiftbyk",
+      "request": "launch",
+      "mainClass": "array.Leftshiftbyk",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
+      "name": "Leftshift",
+      "request": "launch",
+      "mainClass": "array.Leftshift",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "Duplicateremoval",
       "request": "launch",
       "mainClass": "array.Duplicateremoval",
