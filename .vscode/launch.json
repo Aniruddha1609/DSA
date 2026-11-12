@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AllZerosToEnd",
+      "request": "launch",
+      "mainClass": "array.AllZerosToEnd",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "Leftshiftbyk",
       "request": "launch",
       "mainClass": "array.Leftshiftbyk",
