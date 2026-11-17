@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UnionOfSortedArray",
+      "request": "launch",
+      "mainClass": "array.UnionOfSortedArray",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "AllZerosToEnd",
       "request": "launch",
       "mainClass": "array.AllZerosToEnd",

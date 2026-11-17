@@ -7,6 +7,7 @@ public class AllZerosToEnd {
         int index = 0;
         while (index < arr.length) {
             if (arr[index] != 0 && currentZero != -1 && arr[currentZero] == 0) {
+
                 int temp = arr[index];
                 arr[index] = arr[currentZero];
                 arr[currentZero] = temp;
