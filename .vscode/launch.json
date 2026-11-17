@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "INtersectionOfTwoArray",
+      "request": "launch",
+      "mainClass": "array.INtersectionOfTwoArray",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "UnionOfSortedArray",
       "request": "launch",
       "mainClass": "array.UnionOfSortedArray",
