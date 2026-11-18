@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaximumConsecutiveOnes",
+      "request": "launch",
+      "mainClass": "array.MaximumConsecutiveOnes",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
+      "name": "MissingNumber",
+      "request": "launch",
+      "mainClass": "array.MissingNumber",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "INtersectionOfTwoArray",
       "request": "launch",
       "mainClass": "array.INtersectionOfTwoArray",
