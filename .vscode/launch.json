@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestSubArray",
+      "request": "launch",
+      "mainClass": "array.LongestSubArray",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubarraySum",
+      "request": "launch",
+      "mainClass": "array.LongestSubarraySum",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "AppearedOnce",
       "request": "launch",
       "mainClass": "array.AppearedOnce",
