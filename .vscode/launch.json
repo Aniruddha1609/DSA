@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BuyAndSellStocks",
+      "request": "launch",
+      "mainClass": "array.BuyAndSellStocks",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
+      "name": "MaximumSubarraySum",
+      "request": "launch",
+      "mainClass": "array.MaximumSubarraySum",
+      "projectName": "DSA_fbb4c84"
+    },
+    {
+      "type": "java",
       "name": "MajorityElement",
       "request": "launch",
       "mainClass": "array.MajorityElement",
